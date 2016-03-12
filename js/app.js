@@ -337,7 +337,7 @@ Player.prototype.update = function(){
 
 // if the players position is the same as the gems
 Player.prototype.gemEquals = function(x,y){
-    if(player.x === x & player.y === y){
+    if(player.x === x && player.y === y){
         return true;
     }
     return false;
